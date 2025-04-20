@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "YOUR_OPENAI_API_KEY",
   });
   
 export async function analyzeSentiment(feedbackText: string): Promise<string> {
